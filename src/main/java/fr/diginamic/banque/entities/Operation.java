@@ -18,7 +18,5 @@ public abstract class Operation {
         return "Date: "+this.dateOpe+"Montant: "+this.montant;
     }
 
-    public String afficherType(){
-        return "Operation";
-    }
+    public abstract String afficherType();
 }
